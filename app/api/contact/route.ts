@@ -27,7 +27,7 @@ export async function POST(req: Request) {
     const { data, error } = await resend.emails.send({
       from: "IDK Website <onboarding@resend.dev>",
       to: [process.env.ADMIN_EMAIL as string],
-      reply_to: body.email,
+      replyTo: body.email,
       subject: `New IDK contact message from ${body.name}`,
       text: `
 Name: ${body.name}
