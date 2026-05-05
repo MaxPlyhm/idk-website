@@ -54,10 +54,6 @@ export default function HeroSection() {
             <span className="rounded-full border border-white/60 bg-white/70 px-5 py-3 text-xs uppercase tracking-[0.22em] text-[#6A5A48] backdrop-blur-md">
               Explainable
             </span>
-
-            <span className="rounded-full border border-white/60 bg-white/70 px-5 py-3 text-xs uppercase tracking-[0.22em] text-[#6A5A48] backdrop-blur-md">
-              Meal plans + trips
-            </span>
           </div>
         </div>
 
@@ -75,15 +71,6 @@ export default function HeroSection() {
             </p>
             <p className="max-w-[190px] font-semibold leading-snug text-[#533F2E]">
               Because it fits your taste, time, and mood.
-            </p>
-          </div>
-
-          <div className="absolute bottom-12 left-[-40px] hidden rounded-[28px] border border-white/60 bg-white/80 p-5 shadow-xl backdrop-blur-md lg:block">
-            <p className="mb-1 text-xs uppercase tracking-widest text-[#8A7A67]">
-              Plan ahead
-            </p>
-            <p className="max-w-[200px] font-semibold leading-snug text-[#533F2E]">
-              Dinners this week, or restaurants for your trip.
             </p>
           </div>
         </div>
